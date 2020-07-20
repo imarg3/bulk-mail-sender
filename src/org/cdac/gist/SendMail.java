@@ -29,6 +29,7 @@ public class SendMail
   static String strHostIPAddress = "";
   static String username = "";
   static String password = "";
+  static int port = 25;
   
   public static String getEmailAddress(String strEmailAddrFileName, String strEmailContentFileName, String strCC, String strSubject, String strAttachmentFileName)
   {
@@ -51,6 +52,7 @@ public class SendMail
         nAfterSentMailCount = Integer.parseInt(props.getProperty("afterSentMailCount"));
         username = props.getProperty("username");
         password = props.getProperty("password");
+        port = Integer.valueOf(props.getProperty("port"));
       }
     }
     catch (IOException e)
@@ -194,7 +196,7 @@ public class SendMail
     //props.put("mail.smtp.host","smtp.cdac.in"); // smtp.cdac.in
     //props.put("mail.smtp.ssl.trust", "smtp.cdac.in"); // smtp.cdac.in
     props.put("mail.smtp.auth", "true" ); // true
-    props.put("mail.smtp.port",587); // 587
+    props.put("mail.smtp.port",port); // smtp port
     props.put("mail.debug", "true");
 	
     Session session = Session.getInstance(props,    	
@@ -261,7 +263,7 @@ public class SendMail
     //props.put("mail.smtp.host","smtp.cdac.in");
     //props.put("mail.smtp.ssl.trust", "smtp.cdac.in");
     props.put("mail.smtp.auth", "true" );
-    props.put("mail.smtp.port",587);
+    props.put("mail.smtp.port",port);
     
     Session session = Session.getInstance(props, new Authenticator() 
     {
