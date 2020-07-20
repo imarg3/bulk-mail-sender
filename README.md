@@ -5,6 +5,7 @@
 # Change configuration setting in config.properties as per your mail server :
 - fromMailID (From Email ID)
 - host (SMTP Server Host name)
+- port (SMTP Server Port)
 - delayTimeInSec (Delay Time after sending multiple emails as per sent mail count)
 - afterSentMailCount (Total sent mails after application should have to wait)
 - username (Valid email id / username for authentication purpose)
@@ -21,6 +22,8 @@ An interface will be popped out and you need to provide following details :
 - Subject (mandatory): Email Subject Line
 - Content (mandatory): Email Content
 - Attachment (optional): Optional Attachment file
+
+Supported File Type : Text file (.txt), Excel & CSV
 
 # Mail Status
 
