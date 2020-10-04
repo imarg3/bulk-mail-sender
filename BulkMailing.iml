@@ -14,19 +14,19 @@
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library name="activation.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../Java_Bulk_Mailing_Code/Jars/activation.jar!/" />
+          <root url="jar://$MODULE_DIR$/dependencies/activation.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library name="mail.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../Java_Bulk_Mailing_Code/Jars/mail.jar!/" />
+          <root url="jar://$MODULE_DIR$/dependencies/mail.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
