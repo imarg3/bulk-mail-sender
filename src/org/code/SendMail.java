@@ -193,8 +193,8 @@ public class SendMail
     props.put("mail.smtp.host", host);
 	props.put("mail.transport.protocol", "smtp" );
     props.put("mail.smtp.starttls.enable","true" );
-    //props.put("mail.smtp.host","smtp.cdac.in"); // smtp.cdac.in
-    //props.put("mail.smtp.ssl.trust", "smtp.cdac.in"); // smtp.cdac.in
+    //props.put("mail.smtp.host","smtp.test.in"); // smtp.test.in
+    //props.put("mail.smtp.ssl.trust", "smtp.test.in"); // smtp.test.in
     props.put("mail.smtp.auth", "true" ); // true
     props.put("mail.smtp.port",port); // smtp port
     props.put("mail.debug", "true");
@@ -260,8 +260,8 @@ public class SendMail
     props.put("mail.smtp.host", host);
 	props.put("mail.transport.protocol", "smtp" );
     props.put("mail.smtp.starttls.enable","true" );
-    //props.put("mail.smtp.host","smtp.cdac.in");
-    //props.put("mail.smtp.ssl.trust", "smtp.cdac.in");
+    //props.put("mail.smtp.host","smtp.test.in");
+    //props.put("mail.smtp.ssl.trust", "smtp.test.in");
     props.put("mail.smtp.auth", "true" );
     props.put("mail.smtp.port",port);
     
