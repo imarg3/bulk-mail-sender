@@ -1,8 +1,10 @@
-# This software requires Java to be installed on your machine. So first check whether java is installed or not in your machine using command :
+# Bulk Mail Sender Application
+
+This software requires Java to be installed on your machine. So first check whether java is installed or not in your machine using command :
 
 >java -version
 
-# Change configuration setting in config.properties as per your mail server :
+## Change configuration setting in config.properties as per your mail server :
 - fromMailID (From Email ID)
 - host (SMTP Server Host name)
 - port (SMTP Server Port)
@@ -11,7 +13,7 @@
 - username (Valid email id / username for authentication purpose)
 - password (Valid password for authentication purpose)
 
-# Execute application
+## Execute application
 
 To run application on your machine, execute run.bat file on Windows machine.
 
@@ -25,7 +27,7 @@ An interface will be popped out and you need to provide following details :
 
 Supported File Type : Text file (.txt), Excel & CSV
 
-# Mail Status
+## Mail Status
 
 When all the emails are sent, you will notified with "Mails Sent successfully" message. In case of any errors, kindly refer to output file.
 
