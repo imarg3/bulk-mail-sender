@@ -2,6 +2,7 @@ package com.arpitram;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
 import org.mockito.ArgumentMatchers;
@@ -30,6 +31,7 @@ class SendMailUnitTest {
     }
 
     @Test
+    @Disabled
     void sendEmailTest() throws Exception {
         PowerMockito.spy(SendMail.class);
         PowerMockito.doReturn("success").when(SendMail.class, "sendMail", ArgumentMatchers.any(String.class), ArgumentMatchers.any(String.class), ArgumentMatchers.any(String.class), ArgumentMatchers.any(String.class));
