@@ -1,3 +1,5 @@
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.arpitram/bulkmailer/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.arpitram/bulkmailer)
+
 # Bulk Mail Sender Application
 
 This software requires Java to be installed on your machine. So first check whether java is installed or not in your machine using command :
